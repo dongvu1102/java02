@@ -17,7 +17,10 @@ public class Main {
         String[] array = names.split(",");
         // In ra chuỗi
         for (int j = 0; j < array.length; j++) {
-            System.out.println((j + 1) + ". " + array[j]);
+            System.out.println((j + 1) + ". " + array[j].trim());
+            System.out.println(" git");
         }
+        Student stud = new Student();
+        
     }
 }
